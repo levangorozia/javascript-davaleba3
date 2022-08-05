@@ -18,4 +18,27 @@
 // array.splice ('2', 0, 'mango');
 // array.shift ();
 // array.pop();
-// console.log(array.length);
+// console.log(array.length);.
+
+
+// davaleba #4.  მოცემულია მასივი:
+// filter-ის გამოყენებით გაფილთრეთ და გამოიტანეთ მარტო ციფრები; 
+
+// varianiti #1
+
+// let array = ["hello", 125, "javascript", "html", 43, "css", "scss", "bootstrap", 88, 59, "python"];
+
+// let newarray = array.filter (function(item){
+//     return typeof item == 'number';
+// }
+// )
+
+// console.log(newarray);
+
+// varianiti #2 arrow function
+
+// let array = ["hello", 125, "javascript", "html", 43, "css", "scss", "bootstrap", 88, 59, "python"];
+
+// let newarray = array.filter ((item)  => typeof item == 'number');
+
+// console.log(newarray);
